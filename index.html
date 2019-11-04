@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <title>Title</title>
 </head>
 <body>
@@ -9,7 +10,19 @@
 <div class="chColor">
     <input type="button" value="Change Color" id="color">
 </div>
-<script src="main.js"></script>
+<label>First Name :</label> <input type="text" class="saveInput" id="firstname"> <br>
+<label>Last Name  :</label> <input type="text" class="saveInput" id="lastname">
 
+<div class="notes">
+    <div id="add-note">
+        <textarea></textarea>
+        <br>
+        <button id="add-button">Добавить заметку</button>
+    </div>
+    <div id="notes">
+    </div>
+</div>
+
+<script src="main.js"></script>
 </body>
 </html>
